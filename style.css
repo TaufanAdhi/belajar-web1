@@ -1,0 +1,229 @@
+/* reset css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* utama */
+
+body {
+	font: 16px/18px arial sans-serif;
+	background-image: url(bg1.png);
+	background-repeat: repeat-x;
+	background-size: 570px;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: white;
+	position: relative;
+	margin-top: 40px;
+
+
+}
+
+
+/* heading */
+.fix {
+	position: fixed;
+	top: 0px; 
+	right: 0px;
+	left:0px;
+	height: 40px;
+	z-index: 9999;
+	background-color: #8E7C67;
+}
+
+.gambar{
+	position: absolute;
+	width: 65px;
+    height: 66px;
+    top: -17px;
+    left: -7px;
+}
+
+
+
+.heading {
+	padding: 15px;
+	text-align: center;
+	padding-bottom: 25px;
+		
+}
+
+.heading h1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+ul li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 80px;
+	font-size: 18px;
+
+
+}
+
+ul li a {
+	text-decoration: none;
+	padding: 10px;
+	color: #8E7C67;
+
+}
+
+ul li a:hover {
+	background-color: #8E7C67;
+	color: white;
+}
+/* backgorund */
+
+.hiro {
+	padding: 10px;
+}
+
+.hero {
+	height: 400px;
+	background-image: url(bg2.jpg);
+	width: ;
+	margin: auto;
+	box-sizing: border-box;
+	border-top: 5px solid #DFE8CC;
+	border-bottom: 5px solid #8E7C67;
+
+}
+
+
+/* konten  */
+
+.conten {
+	text-align: center;
+
+}
+
+.conten h2 {
+	font-weight: bold;
+	font-size: 25px;n
+	font-variant: small-caps;
+	color: #8E7C67;
+	margin-top: 20px;
+}
+
+
+
+.conten p {
+	font-size: 11px;
+	line-height: 12px;
+}
+
+
+
+/* paragreaf */
+
+.conten .isi1,.isi2 {
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+	width: 450px;
+	float: left;
+	line-height: 29px;
+}
+
+.conten .isi2 {
+	float: right;
+}
+
+/* penulis  */
+
+.penulis {
+	margin-top: 20px;
+	padding: 10px;
+	width: 500px;
+	
+	margin: auto;
+
+}
+
+.penulis h1 {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.penulis img {
+	margin-top: 20px;
+	position: relative;
+	left: 206px;
+}
+
+/* footer */
+
+.foter {
+	text-align: center;
+	height: 25px;
+	padding: 10px;
+	background-image: url(bg1.png);
+	margin-top: 80px;
+
+}
+
+.foter p {
+	color: #8E7C67;
+}
+
+
+
+
+
+.clear {
+	clear: both;
+}
